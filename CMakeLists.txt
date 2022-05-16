@@ -1,0 +1,3 @@
+add_library(BulletDebugDrawer STATIC src/BulletDebugDrawer.cpp)
+target_link_libraries(BulletDebugDrawer PUBLIC glad)
+target_include_directories(BulletDebugDrawer PUBLIC include)
